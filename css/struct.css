@@ -1,0 +1,60 @@
+a {
+    transition: all 0.8s ease;
+}
+
+.container {
+    background: #eee;
+    width: 90%;
+    margin: 0 auto;    
+}
+
+.link__descritivo__imagem {
+
+}
+
+.main__header h1 {
+    padding: 20px 40px;
+}
+
+.main__header ul {
+    border-bottom: 1px solid red;
+    display: block;
+    margin-top: 30px; 
+    float: none;
+    overflow: auto;
+    clear: both;
+}
+
+.main__header li {
+    float: left;
+}
+
+.main__header a {
+    display: block;
+    transition: all 0.8s ease;
+    padding: 10px 20px;
+}
+
+.main__header a:hover {
+    background: blue;
+    color: white;
+}
+
+.image__responsiva {
+    width: 50%
+}
+
+main {
+    clear: both;
+} 
+
+section {
+    float: right;
+    width: 70%;
+    padding: 1%
+    background-color: maroon;
+}
+
+footer {
+    clear: both;
+}
