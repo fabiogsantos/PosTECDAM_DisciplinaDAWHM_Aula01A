@@ -8,8 +8,10 @@ a {
     margin: 0 auto;    
 }
 
-.link__descritivo__imagem {
-
+.link__descritivo--imagem {
+    display: block;
+    margin-bottom: 30px; 
+    color: transparent;	
 }
 
 .main__header h1 {
@@ -40,8 +42,28 @@ a {
     color: white;
 }
 
-.image__responsiva {
-    width: 50%
+.main__image--responsiva {
+    width: 50%;
+}
+
+.main__referencia--primeiro {
+	display: block;
+	font-style: armenian;
+	font-size: 15px;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+.main__selecao--com--semantica {
+	display: block;
+	color: blue;	
+	margin-bottom: 20px;
+}
+
+.main__selecao--sem--semantica {
+	display: block;
+	color: gray;	
+	margin-bottom: 20px;
 }
 
 main {
@@ -49,12 +71,13 @@ main {
 } 
 
 section {
-    float: right;
-    width: 70%;
-    padding: 1%
-    background-color: maroon;
+	float: right;
+	width: 70%;
+    padding: 10%;
+    background-color: write;
 }
 
 footer {
     clear: both;
+	padding: 5%;
 }

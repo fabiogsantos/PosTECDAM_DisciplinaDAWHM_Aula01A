@@ -32,10 +32,77 @@
             </main>
             <section>
                 <article>
-                    <img class="image__responsiva" src="img/html5.png" alt="Logomarca do HTML5" title="Imagem da Logomarca do HTML5"/>
-                    <a class="link__descritivo__imagem" href="#">D</a>
-                    <h4>O que é BEM?</h4>
-                    <p>A sigla BEM significa block, element, modifier e segue essas propriedades para definir uma nova metodologia de criação de nomes para classes de folhas de estilo.</p>
+                    <img class="main__image--responsiva" src="img/css3.png" alt="Imagem Ilustrando o CSS3" title="Imagem Logomarca CSS3"/><br>
+                    <a class="link__descritivo--imagem" href="#">Imagem Ilustrando o CSS3</a>
+					<h4>Relatório de Estudo</h4><br>
+                    <br>
+                    <br>
+					<h4>Desenvolvimento de Aplicações WEB/Híbridas Multiplataformas</h4><br>
+                    <br>
+                    <br>
+                    <br>  
+					<p>Realizado  por:<br>
+					Fábio Gonçalves<br>
+					fabiogsantos@gmail.com</p><br>
+                    <br>
+					<p>Ministrado  por:<br>
+					Felipe de Albuquerque - fa@cesar.org.br</p><br>
+                    <br>
+					<h4>Faculdade dos Guararapes / Cesar.EDU</h4><br>
+                    <br>
+				    <br>
+					<h4>Resumo</h4><br>
+					<p>Estudo sobre BEM CSS, semântica, responsividade web design, acessibilidade, performance CSS, reuso e modularidade.</p><br>
+					<br>
+					<br>
+					<h4>BEM CSS (Block Element Modifier to Cascading Style Sheets)</h4><br>
+					<p>A sigla BEM significa block, element, modifier e segue essas propriedades para definir uma nova metodologia de criação de nomes para classes de folhas de estilo.<br>
+					A estrutura é simples:<br>
+					.elementopai, .elementopai__filho, .elementopai__filho- -primeiro</p>
+                    <br>
+					<br>
+					<p>As marcas registradas da estruturação BEM são o uso do “__” e do “- -“: sendo que o primeiro define um elemento (filho do elemento pai), e o segundo define um modificador.<br>
+					A grande ideia é padronizar para que qualquer front-end, ao se deparar com essa estrutura, separada por “__” ou “- -“, identifique os elementos e os modificadores só de analisar um HTML.</p><br>
+                    <br>
+					<p>Exemplo CSS:<br>
+					.formcontent (elemento pai)<br>
+					.formcontent__field (elemento filho)<br>
+					.formcontent__field--first (elemento filho modificado)</p><br>
+                    <br>
+                    <br>
+					<p>No HTML:<br> 
+					&ltform class="formcontent"><br>
+					  &ltinput type="text" class="formcontent__field--first" /><br>
+					  &ltinput type="text" class="formcontent__field" /><br>
+					  &ltinput type="submit" class="formcontent__field--button" /><br>
+					&lt/form></p><br>
+                    <br>
+					<br>
+					<!-- acatando o uso da semantica do HTML5 -->
+                    <p>Qual o aproveitamento do conteúdo?</p>
+					<select class="main__selecao--com--semantica">
+					  <option value="selNivelAlto">Nivel Alto</option>                       
+					  <option value="selNivelModerado">Nivel Moderado</option>
+					  <option value="selNivelBaixo">Nível Baixo</option>
+                    </select>
+					<!-- ignorando o uso da semantica do HTML5 -->
+					<div class="main__selecao--sem--semantica">
+					  <div class="btn" data-toggle="dropdown">Qual o aproveitamento do conteúdo?</div>
+						  <ul class="dropdown-menu">
+							  <li>Nivel Alto</li>                       
+							  <li>Nivel Moderado</li>
+							  <li>Nível Básico</li>
+						  </ul>						  
+					</div>					
+					<h4>Referências</h4><br>
+					<p class="main__referencia--primeiro">Poplade, Thaiana -  https://tableless.com.br/bem-um-novo-metodo-para-seu-css.<br>
+					   Sarti, Erika - http://erikasarti.net/html/acentuacao-caracteres-especiais/<br>
+					   Santos, Yoseph - http://maujor.com/tutorial/escrevendo-html-semantico.php<br>
+					   Bruno, William - https://imasters.com.br/front-end/web-standards/semantica-html5-comece-agora-mesmo-use/?trace=1519021197&source=single<br>
+					   Ferreira, Elcio; Eis, Diego - http://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf<br>
+					   (CURSO W3C ESCRITÓRIO BRASIL) - http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf<br>
+					   Eis, Diego - https://tableless.com.br/introducao-ao-responsive-web-design/<br>
+					</p>
                 </article>    
             </section>                 
             <footer>
